@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e0e0!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.collapse.navbar-collapse
+{
+  float: right;
+  right: 0;
+  position: absolute;
+}
+.selling-button,.submitbutton
+{
+  background-color: #020243!important;
+  color: #fff!important;
+  padding: 10px 8px!important;
+}
+ul.navbar-nav .nav-item
+{
+  padding:10px;
+
+}
+img
+{
+  width:200px;
+  height:100px;
+}
+.right-form
+{
+  background-color: #d5d6d3;
+  padding: 20px;
+  box-shadow: 0px 14px 20px 0px #7c7676;
+  width: 80%;
+  float: right;
+}
+.right-heading,.right-para,.head5,.bottom-icon p,.icon-info
+{
+  text-align: left;
+}
+.left-heading
+{
+  font-size: 18px;
+  color: grey;
+  line-height: 45px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.left-info
+{
+  padding: 20px;
+  box-shadow: 0px 14px 20px 0px #7c7676;
+}
+img.icon1,img.icon2,img.icon3,img.icon4
+{
+  width: 75px;
+    height: 75px;
+}
+@media(max-width:600px)
+{
+  .right-form
+  {
+    width: 100%;
+  }
+}
